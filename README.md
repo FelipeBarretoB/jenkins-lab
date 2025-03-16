@@ -39,11 +39,11 @@ We then create a new pipeline and configure it with the repository of the applic
 
 We add our git repository and configure the pipeline to use the Jenkinsfile in the root of the repository.
 
-![node](../images/Screenshot_git.png)
+![node](./images/Screenshot_git.png)
 
 We then give node it's bin path and the npm path
 
-![path](../images/Screenshot_path.png)
+![path](./images/Screenshot_path.png)
 
 Finally, we tell the pipeline to use shell, and run the following commands:
 
@@ -57,13 +57,13 @@ We use the '&' so that the process runs in the background and the pipeline can c
 
 We then save the pipeline and run it.
 
-![pipeline](../images/Screenshot_pipe.png)
+![pipeline](./images/Screenshot_pipe.png)
 
 The pipeline will run and the application will be built and started.
 
-![pipeline_run](../images/Screenshot_run.png)
+![pipeline_run](./images/Screenshot_run.png)
 
 
 The output of the job in jenkins should look like this:
 
-![complete](../images/Screenshot_lab.png)
+![complete](./images/Screenshot_lab.png)
